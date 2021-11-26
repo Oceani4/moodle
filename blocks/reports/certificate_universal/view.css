@@ -1,0 +1,71 @@
+#region-main.span8{
+    width: 100% !important;
+}
+.main-table-row {
+    display: flex;
+}
+
+#datetimepicker10 > input {
+    height: 30px;
+}
+
+#region-main > div > table {
+    width: 250px;
+}
+
+h4.header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#region-main > div > table > tbody
+{
+    display: none;
+}
+
+.table-wrapper {
+    margin-top: 10px;
+    display: flex;
+    align-self: auto;
+    flex-wrap: nowrap;
+}
+
+.table-wrapper table tbody tr.header > td {
+    background-color: #aed2e4;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+    vertical-align: middle;
+}
+
+.table-wrapper .header > td {
+    text-align: center;
+    padding: 13px;
+}
+
+.table-row:nth-child(2n) {
+    background-color: #eeefee;
+}
+
+.table-row > td {
+    padding: 3px 5px 3px 10px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+    vertical-align: middle;
+    max-width: 250px;
+}
+.table-row .user-name {
+    min-width: 240px;
+}
+
+.table-row .module-name {
+    min-width: 90px;
+}
+
+.graded-count {
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+config.php
+.idea/
+node_modules/
+mod/bigbluebuttonbn/
+.htaccess
